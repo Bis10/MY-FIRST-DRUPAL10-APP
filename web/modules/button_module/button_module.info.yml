@@ -1,0 +1,4 @@
+name: Button module
+description: My Button module
+type: module
+core_version_requirement: ^10 || ^11 || ^12

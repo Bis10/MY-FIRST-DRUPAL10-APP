@@ -1,0 +1,7 @@
+button_module.page:
+  path:  "/button"
+  defaults:
+    _controller: '\Drupal\button_module\Controller\ButtonController::button'
+    _title: "Button module"
+  requirements:
+    _permission: "access content"
