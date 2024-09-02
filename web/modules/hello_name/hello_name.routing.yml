@@ -1,0 +1,15 @@
+hello_name.page:
+  path:  "/hello_name"
+  defaults:
+    _controller: '\Drupal\hello_name\Controller\HelloNameController::hello'
+    _title: "Hello name"
+  requirements:
+    _permission: "access content"
+
+hello_name.form:
+  path:  "/hello_form"
+  defaults:
+    _form: '\Drupal\hello_name\Form\HelloNamesForms'
+    _title: "Hello name"
+  requirements:
+    _permission: "access content"
