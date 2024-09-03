@@ -1,35 +1,36 @@
 {{ attach_library('tara/slider') }}
 <section id="slider">
-  <div class="container">
-    <ul class="js-rotating home-slider">
-      {% if slider_code != '' %}
-        {{ slider_code | striptags('<ol>,<ul>,<li>,<p>,<a>,<img>,<video>,<h1>,<h2>,<h3>,<h4>,<h5>,<h6>,<em>,<strong>,<br>,<i>,<div>,<span>,<button>') | raw }}
-      {% else %}
-      <li>
-        <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <br />
-        <a class="button" href="#">read more</a>
-      </li>
-      <li>
-        <h1>Join to our new courses</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <br />
-        <a class="button" href="#">read more</a>
-      </li>
-      <li>
-        <h1>Be an expert</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <br />
-        <a class="button" href="#">read more</a>
-      </li>
-      <li>
-        <h1>Build your career</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <br />
-        <a class="button" href="#">read more</a>
-      </li>
-      {% endif %}
-    </ul> <!--/.home-slider -->
-  </div>
+	<div class="container">
+		<ul class="js-rotating home-slider">
+			{% if slider_code != '' %}
+				{{ slider_code | striptags('<ol>,<ul>,<li>,<p>,<a>,<img>,<video>,<h1>,<h2>,<h3>,<h4>,<h5>,<h6>,<em>,<strong>,<br>,<i>,<div>,<span>,<button>') | raw }}
+			{% else %}
+				<li>
+					<h1>Welcome</h1>
+					<p>Create a account and log in</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+				<li>
+					<h1>Join to our new courses</h1>
+					<p>Dive into the excellence</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+				<li>
+					<h1>Be an expert</h1>
+					<p>Sold your expertise to the job market</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+				<li>
+					<h1>Build your career</h1>
+					<p>make a strong foundation</p>
+					<br/>
+					<a class="button" href="#">read more</a>
+				</li>
+			{% endif %}
+		</ul>
+		<!--/.home-slider -->
+	</div>
 </section>

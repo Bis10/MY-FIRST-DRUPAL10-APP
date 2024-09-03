@@ -1,5 +1,5 @@
-name: "Hello name"
-description: "My Hello name"
+name: Hello name
+description: "A simple module to print the name"
 type: module
 core_version_requirement: ^10 || ^11 || ^12
 version: 0.0.1
