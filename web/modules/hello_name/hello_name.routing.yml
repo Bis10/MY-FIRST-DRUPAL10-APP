@@ -2,6 +2,7 @@ hello_name.page:
   path:  "/hello_name"
   defaults:
     _controller: '\Drupal\hello_name\Controller\HelloNameController::hello'
+    # To avoid displaying the title in the site remove the title name "Hello name"
     _title: "Hello name"
   requirements:
     _permission: "access content"
@@ -10,6 +11,16 @@ hello_name.form:
   path:  "/hello_form"
   defaults:
     _form: '\Drupal\hello_name\Form\HelloNamesForms'
+    # To avoid displaying the title in the site remove the title name "Hello name"
     _title: "Hello name"
+  requirements:
+    _permission: "access content"
+
+hello_name.greeting:
+  path: "/hello_name_greeting/{name}"
+  defaults:
+    _controller: '\Drupal\hello_name\Controller\HelloNameController::greeting'
+    # To avoid displaying the title in the site remove the title name "Personalized greeting"
+    _title: "Personalized greeting"
   requirements:
     _permission: "access content"

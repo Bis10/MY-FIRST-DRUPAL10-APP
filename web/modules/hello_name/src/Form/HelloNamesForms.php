@@ -25,8 +25,13 @@ return $form;
 }
 
 public function submitForm(array &$form, FormStateInterface $form_state)
-{
+
+  {
+
     $name = $form_state->getValue('name');
-    \Drupal::messenger()->addMessage($this->t('Hello, @name!', ['@name'=>$name]));
-}
+
+    $form_state->setRedirect('hello_name.greeting', ['name' => $name]);
+
+  }
+
 }

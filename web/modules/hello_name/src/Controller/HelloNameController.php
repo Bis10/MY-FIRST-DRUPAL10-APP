@@ -15,5 +15,13 @@ class HelloNameController extends ControllerBase
     $link = Link::fromTextAndUrl($this->t('Go to the form'), $url)->toString();
     return ['#markup'=>$this->t('Hello, [Your Name]! @link', ['@link' => $link])];
   }
+
+  public function greeting($name) {
+  return [
+    '#markup' => $this->t('Hello, @name!', ['@name' => $name])
+  ];
+
+}
+
  
 }
