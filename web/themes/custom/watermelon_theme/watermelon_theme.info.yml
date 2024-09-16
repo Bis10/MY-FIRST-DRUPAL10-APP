@@ -1,0 +1,16 @@
+name: Watermelon theme
+type: theme
+description: an experimental custom theme
+base theme: false
+version: 0.0.1
+core_version_requirement: ^9 || ^10 || ^11
+
+libraries:
+  - watermelon_theme/global
+
+regions:
+  header: header
+  menu: menu
+  content: content
+  sidebar: sidebar
+  footer: footer
