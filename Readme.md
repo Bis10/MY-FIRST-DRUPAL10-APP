@@ -1,4 +1,4 @@
- # Drupal + React Learning Project
+ # (Drupal + React) Learning Project
 ## Overview
 This project is a Drupal 10 site that integrates React.js to build dynamic frontend components. It serves as a learning platform to explore the interaction between Drupal as a CMS and React for building modern, interactive UIs.
 
