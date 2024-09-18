@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: b2d14f13-d7ac-4a27-ae81-d5c0da7703a5
+name: 'Down for maintainance'
+mail: admin@example.com
+slogan: 'Awesome platform'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

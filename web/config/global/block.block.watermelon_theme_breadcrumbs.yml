@@ -1,0 +1,22 @@
+uuid: a6bde03e-0660-4330-ae8a-9096f1270e20
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - watermelon_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: watermelon_theme_breadcrumbs
+theme: watermelon_theme
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

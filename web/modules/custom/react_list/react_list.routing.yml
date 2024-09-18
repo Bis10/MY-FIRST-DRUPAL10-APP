@@ -1,5 +1,5 @@
 react_list.page:
-  path:  "/content"
+  path:  "/react-list"
   defaults:
     _controller: '\Drupal\react_list\Controller\ReactListController::content'
     _title: "React list module"

@@ -1,0 +1,20 @@
+uuid: 1f5976d1-5153-4b81-ab55-3688b2b4b2c1
+langcode: en
+status: false
+dependencies:
+  theme:
+    - watermelon_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: watermelon_theme_primary_admin_actions
+theme: watermelon_theme
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

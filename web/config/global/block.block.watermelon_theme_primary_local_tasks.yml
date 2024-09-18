@@ -1,0 +1,22 @@
+uuid: 00bc7af0-570f-4d2a-bf03-c75e95c873a8
+langcode: en
+status: false
+dependencies:
+  theme:
+    - watermelon_theme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: watermelon_theme_primary_local_tasks
+theme: watermelon_theme
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

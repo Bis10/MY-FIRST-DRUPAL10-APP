@@ -1,0 +1,22 @@
+uuid: 840f100d-9abc-4b84-94e7-60386171118e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - watermelon_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: watermelon_theme_powered
+theme: watermelon_theme
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

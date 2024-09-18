@@ -1,0 +1,22 @@
+uuid: f37650ae-a313-497b-9311-239771b93c6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - watermelon_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: watermelon_theme_content
+theme: watermelon_theme
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

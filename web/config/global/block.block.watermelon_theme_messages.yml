@@ -1,0 +1,22 @@
+uuid: e0d003c7-8507-4879-9e15-66b9a1a63d8c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - watermelon_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: watermelon_theme_messages
+theme: watermelon_theme
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

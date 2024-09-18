@@ -11,16 +11,19 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Article List</h1>
+  <div>
+    <h1>Article List</h1>
 
-      <ul>
-        {nodes.map((node) => (
-          <li key={node.id}>{node.attributes.title}</li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+    <ul>
+      {nodes.map((node) => (
+        <li key={node.id}>
+          <h2>{node.attributes.title}</h2>
+          <p>{node.attributes.body.value}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
+}
 
 export default App;
