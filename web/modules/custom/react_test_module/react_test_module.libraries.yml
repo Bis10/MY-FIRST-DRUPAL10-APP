@@ -1,0 +1,4 @@
+react_test_module:
+  version: VERSION
+  js:
+    js/dist/main.min.js: {}

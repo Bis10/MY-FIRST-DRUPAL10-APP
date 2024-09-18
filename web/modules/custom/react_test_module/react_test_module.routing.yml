@@ -1,0 +1,7 @@
+react_list.page:
+  path:  "/react-test"
+  defaults:
+    _controller: '\Drupal\react_test_module\Controller\ReactTestController::content'
+    _title: "React Test module"
+  requirements:
+    _permission: "access content"
