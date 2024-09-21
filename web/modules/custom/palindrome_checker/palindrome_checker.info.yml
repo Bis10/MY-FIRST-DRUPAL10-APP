@@ -1,0 +1,9 @@
+name: Palindrome checker
+description: My palindrome checker module
+type: module
+core_version_requirement: ^10 || ^11 || ^12
+dependencies:
+  - drupal:node
+
+libraries:
+  - palindrome_checker/palindrome_checker

@@ -1,0 +1,4 @@
+palindrome_checker:
+  version: VERSION
+  js:
+    js/dist/main.min.js: {}
