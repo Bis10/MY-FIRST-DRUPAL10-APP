@@ -1,0 +1,29 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function palindrome_checker_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Help page for the palindrome_checker module, accessible via /admin/help.
+    case 'help.page.palindrome_checker':
+      $output = '';
+      $output .= '<h3>' . t('Palindrome Checker Module') . '</h3>';
+      $output .= '<p>' . t('The Palindrome Checker module allows users to input a string and check whether it is a palindrome. A palindrome is a word, phrase, or sequence of characters that reads the same backward as forward.') . '</p>';
+
+      $output .= '<h4>' . t('To use the Palindrome Checker module:') . '</h4>';
+      $output .= '<ul>';
+      $output .= '<li>' . t('Navigate to the Palindrome Checker page from the front page by adding /palindrome-checker at the end.') . '</li>';
+      $output .= '<li>' . t('Enter a word or phrase into the input box.') . '</li>';
+      $output .= '<li>' . t('Click the "Check" button to verify whether it is a palindrome.') . '</li>';
+      $output .= '</ul>';
+
+      $output .= '<p>' . t('This module is helpful for developers and users who need to validate palindrome patterns in strings.') . '</p>';
+
+      return $output;
+
+    default:
+  }
+}
