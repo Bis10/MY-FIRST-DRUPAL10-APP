@@ -11,9 +11,9 @@ const App = () => {
       return;
     }
 
-    const cleanedString = inputString.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const originalString = inputString.toLowerCase().replace(/[^a-z0-9]/g, "");
 
-    const result = cleanedString === cleanedString.split("").reverse().join("");
+    const result = originalString === originalString.split("").reverse().join("");
 
     setIsPalindrome(result);
     setChecked(true);
@@ -32,7 +32,7 @@ const App = () => {
         type="text"
         value={inputString}
         onChange={handleInputChange}
-        placeholder="Enter a string"
+        placeholder="Enter any string"
         style={{ padding: "10px", fontSize: "16px", width: "300px" }}
       />
 
