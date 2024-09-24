@@ -21,4 +21,4 @@ or RESTful API from Drupal to fetch and display content in React components.
 - Npm installed (for React).
 - Composer for managing Drupal dependencies.
 - Basic understanding of both Drupal and React.
-- Familiarity with JSON and APIs.
+- Familiarity with JSON and RESTful APIs.
