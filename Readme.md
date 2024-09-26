@@ -22,3 +22,4 @@ or RESTful API from Drupal to fetch and display content in React components.
 - Composer for managing Drupal dependencies.
 - Basic understanding of both Drupal and React.
 - Familiarity with JSON and RESTful APIs.
+- Basic knowledge of JavaScript and HTML/CSS.
