@@ -20,6 +20,6 @@ or RESTful API from Drupal to fetch and display content in React components.
 - Drupal 10 installed (a development environment Lando).
 - Npm installed (for React).
 - Composer for managing Drupal dependencies.
-- Basic understanding of both Drupal and React.
+- Basic understanding of both Drupal and React and HTML/CSS.
 - Familiarity with JSON and RESTful APIs.
-- Basic knowledge of JavaScript and HTML/CSS.
+
